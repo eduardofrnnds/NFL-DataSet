@@ -1,18 +1,25 @@
-# NFL Stats Center 🏈
+# NFL Dataset 🏈
 
-Este é um dashboard que criamos para visualizar estatísticas de jogadores da NFL.
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.30-red) ![Pandas](https://img.shields.io/badge/Pandas-2.1-yellow)
 
-A ideia era criar uma ferramenta simples para poder ver quem são os líderes da liga em diferentes categorias, tanto no ataque quanto na defesa. Fiz este projeto para praticar minhas habilidades com Python, especialmente com as bibliotecas Streamlit e Panda.
+Um dashboard web interativo para visualização e análise de estatísticas de jogadores da National Football League (NFL) desde a temporada de 2012.
 
-### O que ele faz?
+Este projeto foi desenvolvido como uma forma de aprimorar habilidades em análise de dados com Python, focando na criação de uma ferramenta intuitiva para explorar o desempenho de atletas de ataque e defesa.
 
-* Mostra os líderes em estatísticas de ataque (passe, corrida, recepção).
-* Também uma parte para stats de defesa (sacks, interceptações, etc).
-* Dá pra filtrar tudo por temporada e por posição pra refinar a busca.
+## ✨ Funcionalidades Principais
 
-As principais ferramentas que usei foram:
+* 📊 **Análise Ofensiva Detalhada:** Visualize os líderes da liga em jardas, touchdowns e outras métricas para Quarterbacks (QB), Running Backs (RB), Wide Receivers (WR) e Tight Ends (TE).
+* 🛡️ **Métricas Defensivas:** Acompanhe os principais jogadores em sacks, interceptações, tackles e fumbles forçados.
+* 🔍 **Filtros Dinâmicos:** Filtre os dados por temporada específica (2012-2024) ou veja os totais de carreira para uma análise histórica completa.
+* 📈 **Evolução de Carreira:** Selecione um jogador e uma estatística para ver sua evolução acumulada ao longo das temporadas em um gráfico de linha interativo.
 
-* Python
-* Streamlit
-* Pandas
-* Plotly
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído utilizando as seguintes tecnologias:
+
+* **Python:** Linguagem principal para toda a lógica de manipulação de dados e backend.
+* **Pandas:** Para carregamento, limpeza e agregação eficiente dos dados.
+* **Streamlit:** Para a construção rápida da interface do usuário do dashboard web.
+* **Plotly:** Para a criação dos gráficos interativos e visualmente ricos.
